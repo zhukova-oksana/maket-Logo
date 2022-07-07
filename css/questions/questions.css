@@ -1,0 +1,142 @@
+.questions {
+  padding: 70px 0;
+  background: url("img/bgquestions.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.questions:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--fon-translucent);
+  z-index: 0;
+}
+
+.questions__container {
+  position: relative;
+}
+
+.questions__title {
+  margin-bottom: 17px;
+  color: var(--color-white);
+}
+
+.questions__text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.18182;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-questions {
+  max-width: 423px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.form-questions__fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.form-questions__input {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  border-radius: 50px;
+  padding: 7px 25px;
+  font-size: 22px;
+  line-height: 1.18182;
+  color: rgba(255, 255, 255, 0.5);
+  transition: border-color 0.6s ease;
+}
+
+.form-questions__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-questions__input:focus,
+.form-questions__input:active {
+  border-color: var(--color-turquoise);
+}
+
+.form-questions__submit {
+  margin: 0 auto;
+}
+
+.questions__agree {
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.questions__link {
+  color: var(--color-link);
+  border-bottom: 1px solid var(--color-link);
+  transition: border-bottom 1s ease-in-out;
+}
+
+.questions__link:hover {
+  border-bottom: transparent;
+}
+
+@media(max-width: 1024px) {
+  .questions {
+    padding-bottom: 56px;
+  }
+
+  .questions__text {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+
+  .form-questions {
+    max-width: 379px;
+    margin-bottom: 30px;
+  }
+
+  .form-questions__input {
+    font-size: 20px;
+    line-height: 1.15;
+    padding: 8px 23px;
+  }
+}
+
+@media(max-width: 480px) {
+  .questions {
+    padding: 30px 0;
+  }
+
+  .questions__text {
+    font-size: 12px;
+    line-height: 1.16667;
+    margin-bottom: 35px;
+  }
+
+  .form-questions__fieldset {
+    gap: 15px;
+    margin-bottom: 45px;
+  }
+
+  .form-questions__input {
+    font-size: 14px;
+    line-height: 1.142857;
+    padding: 5px 18px;
+    border-width: 1px;
+  }
+
+  .questions__agree {
+    font-size: 11px;
+    line-height: 1.18182;
+  }
+}

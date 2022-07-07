@@ -1,0 +1,16 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-turquoise: #15A9CB;
+  --color-main: #383A4C;
+  --fon-circle: #555A7B;
+  --fon-translucent: rgba(47, 50, 75, 0.85);
+}
+
+.questions {
+  --color-link: #4A76A8;
+}
+
+.footer {
+  --main-fon: #2F324B;
+  --made-fon: #2A2C3F;
+}
