@@ -67,4 +67,8 @@
     margin: 0 -15px;
     position: relative;
   }
+
+  .logo-info__text {
+    font-size: 8px;
+  }
 }

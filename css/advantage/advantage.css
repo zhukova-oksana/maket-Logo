@@ -122,15 +122,16 @@
 }
 @media(max-width: 480px) {
   .advantage {
-    padding-bottom: 70px;
+    padding-bottom: 63px;
+    padding-top: 33px;
   }
 
   .advantage__title {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
   }
 
   .advantage__subtitle {
-    gap: 20px;
+    gap: 25px;
     font-size: 16px;
     line-height: 1.1875;
     margin-bottom: 26px;
@@ -150,5 +151,9 @@
 
   .advantage__row {
     gap: 40px;
+  }
+
+  .advantage__item {
+    gap: 28px;
   }
 }

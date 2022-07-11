@@ -40,6 +40,10 @@
   margin-bottom: 88px;
 }
 
+.promo__description_type_mob {
+  display: none;
+}
+
 .button {
   display: inline-block;
   min-width: 201px;
@@ -90,21 +94,28 @@
 
 @media(max-width: 480px) {
   .promo {
-    padding: 110px 0 65px;
+    padding: 111px 0 65px;
   }
 
   .promo__title {
     font-size: 20px;
     line-height: 1.15;
+    margin-bottom: 26px;
   }
 
   .promo__description {
     font-size: 14px;
     line-height: 1.428571;
+    display: none;
+  }
+
+  .promo__description_type_mob {
+    display: block;
+    margin-bottom: 52px;
   }
 
   .button {
-    width: 160px;
+    min-width: 160px;
     font-size: 16px;
     line-height: 1.1875;
     padding: 9px 29px;
