@@ -96,7 +96,13 @@
 
 @media(max-width: 1024px) {
   .questions {
+    padding-top: 70px;
     padding-bottom: 56px;
+  }
+
+  .questions__title {
+    padding-right: 9px;
+    margin-bottom: 16px;
   }
 
   .questions__text {
@@ -105,14 +111,22 @@
   }
 
   .form-questions {
-    max-width: 379px;
+    max-width: 380px;
     margin-bottom: 30px;
+  }
+
+  .form-questions__fieldset {
+    gap: 16px;
   }
 
   .form-questions__input {
     font-size: 20px;
     line-height: 1.15;
     padding: 8px 23px;
+  }
+
+  .questions__agree {
+    font-size: 17px;
   }
 }
 

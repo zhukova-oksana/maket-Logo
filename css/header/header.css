@@ -74,6 +74,8 @@
   .block-info__phone {
     font-size: 21px;
     line-height: 1.19047619;
+    letter-spacing: 0;
+    margin-bottom: 7px;
   }
 
   .block-info__link {

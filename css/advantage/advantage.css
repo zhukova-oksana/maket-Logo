@@ -76,6 +76,10 @@
 }
 
 @media(max-width: 1024px) {
+  .advantage {
+    padding-top: 70px;
+    padding-bottom: 73px;
+  }
   .advantage__title {
     margin-bottom: 23px;
   }
@@ -84,7 +88,7 @@
     gap: 22px;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
   }
 
   .advantage__subtitle:before,
@@ -113,6 +117,7 @@
   .advantage__text {
     font-size: 18px;
     line-height: 1.3888889;
+    word-spacing: 5px;
   }
 }
 @media(max-width: 480px) {
