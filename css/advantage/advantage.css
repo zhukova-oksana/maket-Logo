@@ -1,7 +1,10 @@
-.advantage {}
+.advantage {
+  padding-top: 62px;
+}
 
 .advantage__title {
-  margin-bottom: 25px;
+  margin-bottom: 26px;
+  word-spacing: -0.9px;
 }
 
 .advantage__subtitle {
@@ -28,7 +31,7 @@
   font-size: 18px;
   line-height: 1.388889;
   text-align: center;
-  margin: 0 auto 50px;
+  margin: 0 auto 58px;
 }
 
 .advantage__row {
@@ -48,7 +51,7 @@
   align-items: center;
   counter-increment: count;
   text-align: center;
-  gap: 16px;
+  gap: 14px;
 }
 
 .advantage__item:before {
@@ -116,7 +119,7 @@
   .advantage {
     padding-bottom: 70px;
   }
-  
+
   .advantage__title {
     margin-bottom: 15px;
   }
