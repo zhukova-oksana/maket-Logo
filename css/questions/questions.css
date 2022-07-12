@@ -96,6 +96,7 @@
 
 @media(max-width: 1024px) {
   .questions {
+    background-image: url("img/bgquestions-1024.jpg");
     padding-top: 70px;
     padding-bottom: 56px;
   }
